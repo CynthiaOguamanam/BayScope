@@ -2,3 +2,136 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    /* background-color: green; */
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.wrapper{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red;
+     */
+     color: white;
+}
+.logo{
+    font-size: 25px;
+}
+
+.navwrap{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.navwrap span:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.nav_icon:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.nav_icon{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.nav_icon2{
+    width: auto;
+    /* background-color: green; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav_icon2 svg:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.mainhero{
+    width: 100%;
+    height: 40vh;
+    background-image: url("./Assets/illus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 80px 0 0 0;
+}
+
+.subhero{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, black, rgba(0, 0, 0, 0.569),rgba(0, 255, 255, 0.16), rgba(0, 255, 255, 0.431));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+
+}
+
+.section1{
+    width: 100%;
+    height: 80vh;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1_wrapper{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1_right{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list_wrap{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+}
+
+.linewrap{
+    line-height: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+.linewrap img{
+    margin: 0 10px 15px 0;
+}
