@@ -425,3 +425,24 @@ cursor: pointer;
     font-weight: bold;
 }
 
+.button-wrap3{
+    width: 55%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-wrap3 button{
+    border: none;
+    background-color:#3EC1D5;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 7px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    }
+    .button-wrap3 button:hover{
+        background-color: #000000;
+        transition: all 500ms ease-in-out;
+    }
